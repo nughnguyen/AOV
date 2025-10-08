@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=0.9, user-scalable=no">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>YouTube: Đạt Allain</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="darkmode.css">
+  <link rel="stylesheet" href="splash.css">
+  <link rel="stylesheet" href="skinlist.css">
+  <link rel="stylesheet" href="xapk.css">
+  <link rel="stylesheet" href="settingsanimation.css">
+  <link rel="icon" type="image/png" href="icons/daticon.png">
+</head>
+<body>
+  <header>
+    <div class="app-header">
+      <img src="icons/daticon.png" class="icon-img small">
+      <h1>DATALLAIN WEBPAGE</h1>
+      <img src="icons/menu.png" class="icon-img small" id="menu-button">
+    </div>
+  </header>
+  <div id="overlay" class="overlay"></div>
+<div id="side-menu" class="side-menu">
+  <div class="side-menu-content">
+    <h2>CÀI ĐẶT TRANG WEB</h2>
+    <div class="menusettings-item">
+      <div class="text">
+        <strong>CHUNG</strong><br>
+        <div class="toggle-wrap">
+          <label class="switch">
+            <input type="checkbox" id="toggle-animation">
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">Tắt Animation</span>
+        </div><br>
+        <div class="toggle-wrap">
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">Dark Mode</span>
+        </div><br>
+        <div class="toggle-wrap">
+          <label class="switch">
+            <input type="checkbox" id="reduceQualityToggle">
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">Giảm chất lượng hình ảnh</span>
+        </div><br>
+        <div class="toggle-wrap">
+  <label class="switch">
+    <input type="checkbox" id="toggle-music" checked>
+    <span class="slider"></span>
+  </label>
+  <span class="toggle-label">Nhạc nền</span><br>
+  <button id="changeMusicBtn" class="change-music-btn">Đổi nhạc nền</button>
+</div></div></div>
+        <div class="menusettings-item">
+        <div class="text">
+        <strong>THƯ VIỆN SPLASH ART</strong><br>
+        <div class="toggle-wrap">
+          <label class="switch">
+            <input type="checkbox" id="toggle-show-id">
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">Thông tin tướng/skin</span>
+        </div><br>
+        <div class="toggle-wrap">
+          <label class="switch">
+            <input type="checkbox" id="toggle-show-label">
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">Label Skin</span>
+          </div>
+        </div>
+      </div>
+      <br>
+      <h2>KHÁC</h2>
+      <div class="menusettings-item">
+        <div class="text">
+        <strong>THEO DÕI ĐẠT ALLAIN</strong><br>
+        <div class="menu-item">
+          <img src="icons/ytb.png" class="icon-img">
+          <div class="text">
+            <a href="https://youtube.com/@datallain07" target="_blank">
+              <strong>YOUTUBE</strong>
+            </a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="icons/tik.png" class="icon-img">
+          <div class="text">
+            <a href="https://tiktok.com/@datallain07" target="_blank">
+              <strong>TIKTOK</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <main class="menu">
+    <div class="menu-item">
+      <img src="icons/mb.png" class="icon-img">
+      <div class="text">
+        <strong>DONATE</strong>
+        <small>Donate cho admin để ra mod nhanh hơn🐧</small>
+      </div>
+    </div>
+    <div class="menu-item" id="chonmod">
+    <img src="icons/chonmod.png" class="icon-img">
+    <div class="text">
+      <strong>CHỌN MOD</strong>
+      <small>Click để chọn một bản mod</small>
+      <div id="skin-list"><small>Lưu ý: Nếu không tìm thấy bản mod bạn cần ở đây, là do game đã update và file mod không còn sử dụng được nữa, vui lòng chờ admin update, không nhắn tin thúc giục, làm phiền admin. Cảm ơn!</small></div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="icons/caimod.png" class="icon-img">
+      <div class="text">
+        <a href="https://youtu.be/TxR--AG0fuU" target="_blank">
+          <strong>HƯỚNG DẪN CÀI MOD [iOS]</strong>
+          <small>Click để xem hướng dẫn cài mod iOS</small>
+        </a>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="icons/caimod.png" class="icon-img">
+      <div class="text">
+        <a href="https://youtu.be/0j0pVny0ibI" target="_blank">
+        <strong>HƯỚNG DẪN CÀI MOD - XOÁ MOD [Android]</strong>
+        <small>Click để xem hướng dẫn cài mod, xoá mod Android</small></a>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="icons/res.png" class="icon-img">
+      <div class="text">
+        <a href="" target="_blank">
+        <strong>RESOURCES 11thg9 [Android]</strong>
+        <small>Hiện chưa có</small></a>
+      </div>
+    </div>
+    <div class="menu-item" id="open-splash">
+      <img src="icons/image.png" class="icon-img">
+      <div class="text">
+        <strong>THƯ VIỆN SPLASH ART AOV</strong>
+        <small>Click để xem splash art tướng</small>
+        <div id="splash-container" class="hidden">
+          <input id="search" placeholder="🔎 Tìm kiếm bằng id hoặc tên..." />
+          <div class="dat2" id="head-grid"></div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-item" id="open-server-list">
+      <img src="icons/aov.png" class="icon-img">
+      <div class="text">
+        <strong>DANH SÁCH MÁY CHỦ AOV</strong>
+        <small>Click để xem hoặc tải APK/XAPK</small>
+        <div class="menu3-list">
+        <div class="menu3-item" data-link="https://drive.google.com/uc?export=download&id=1qsw2kfcvjqMPhkjOguf8Snrhl7XnoaPC">
+          <img src="appicon/Z.webp" class="icon-img2">
+          <div class="text">
+              <strong>LIÊN QUÂN MOBILE [VN]</strong>
+              <small>com.garena.game.kgvn</small>
+              <div class="label-top-right">1.58.1.2 | XAPK</div>
+          </div>
+        </div>
+        <div class="menu3-item" data-link="https://drive.google.com/uc?export=download&id=1qtIX8Os7MmqvQQtr5DGYNEeyS3FXYj48">
+          <img src="appicon/GL.webp" class="icon-img2">
+          <div class="text">
+              <strong>ARENA OF VALOR [GL]</strong>
+              <small>com.ngame.allstar.eu</small>
+              <div class="label-top-right">1.58.1.2 | XAPK</div>
+          </div>
+        </div>
+        <div class="menu3-item" data-link="https://drive.google.com/uc?export=download&id=1qiyhRDMCCsweJ9hUxcDGA3d4RNIaz9EE">
+          <img src="appicon/TH.webp" class="icon-img2">
+          <div class="text">
+              <strong>REALM OF VALOR [TH]</strong>
+              <small>com.garena.game.kgth</small>
+              <div class="label-top-right">1.58.1.7 | XAPK</div>
+          </div>
+        </div>
+        <div class="menu3-item" data-link="https://drive.google.com/uc?export=download&id=1qjyOCRN3lMyAG0KHeivOTwT01VYRTjg_">
+          <img src="appicon/Z.webp" class="icon-img2">
+          <div class="text">
+              <strong>傳說對決 [TW]</strong>
+              <small>com.garena.game.kgtw</small>
+              <div class="label-top-right">1.59.1.1 | XAPK</div>
+          </div>
+        </div>
+        <div class="menu3-item" data-link="https://drive.google.com/uc?export=download&id=1qyFH_LJ61gsbzrn0JqjeVA2Y_hxQTQL7">
+          <img src="appicon/CN.webp" class="icon-img2">
+          <div class="text">
+              <strong>先行服 [CN]</strong>
+              <small>com.tencent.ngame.chty</small>
+              <div class="label-top-right">1.58.5.1 | APK</div>
+          </div>
+        </div>
+        <div class="menu3-item" data-link="https://drive.google.com/uc?export=download&id=1q0vR8ofZOzgNubMh4tZ4euAYC3fgiM7T">
+          <img src="appicon/JP.webp" class="icon-img2">
+          <div class="text">
+              <strong>アリーナ・オブ・ヴァラー [JP]</strong>
+              <small>com.tencent.ngjp</small>
+              <div class="label-top-right">1.58.1.2 | XAPK</div>
+          </div>
+        </div>
+        <div class="menu3-item" data-link="https://drive.google.com/uc?export=download&id=1qWVLnuzvFdVENNlrSpvkKzPDcGVdy8bu">
+          <img src="appicon/ID.webp" class="icon-img2">
+          <div class="text">
+              <strong>ARENA OF VALOR [ID]</strong>
+              <small>com.garena.game.kgid</small>
+              <div class="label-top-right">1.59.1.3 | XAPK</div>
+          </div>
+        </div>
+        <div class="menu3-item">
+          <img src="appicon/KR.webp" class="icon-img2">
+          <div class="text">
+            <strong>펜타스톰 [KR]</strong>
+            <small>com.netmarble.pentastorm</small>
+            <div class="label-top-right">Ngừng phát hành</div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+<div id="donate-popup" class="donate-overlay">
+  <div class="donate-content">
+    <div class="donate-img-wrapper">
+      <img src="icons/qr.png" class="donate-qr">
+      <p class="donate-message">MBBank - 0326 233 625 - Đặng Tiến Đạt</p>
+    </div>
+  </div>
+</div>
+<div id="welcome-popup" class="popup-overlay">
+  <div class="popup-content">
+    <img src="icons/daticon.png" class="popup-icon">
+    <h1 class="popup-title">YouTube: Đạt Allain</h1>
+    <p class="popup-message">Thông báo: Link nhóm zalo mới<br><a href="https://zalo.me/g/afaxhh105" target="_blank">https://zalo.me/g/afaxhh105</a><br>Click để tham gia nhóm tránh thất lạc nhau</p>
+    <button id="close-popup"></button>
+  </div>
+</div>
+<div id="musicPopup" class="music-popup">
+  <div class="music-popup-content">
+    <h3>Chọn nhạc nền</h3>
+    <ul id="musicList"></ul>
+  </div>
+</div>
+<div class="credit">©datallain07 | Ver1.3.38</div>
+<script>
+const skins = [
+{
+champion: "Wiro",
+name: "Mặc định",
+IOS: "https://link4m.com/HP8hrEE",
+Android: "https://link4m.com/HP8hrEE",
+bgImg: "img/19400.jpg",
+miniImg: "img/301940head.jpg",
+label: "Cài 1 lần, dùng đến khi game sập",
+desc: "Effects - Sound - Button",
+color: "255, 200, 50",
+}
+];
+</script>
+<script src="xapk.js"></script>
+<script src="heroskinshop.js"></script>
+<script src="skinname.js"></script>
+<script src="herolist.js"></script>
+<script src="script.js"></script>
+<script src="splash.js"></script>
+<script src="darkmode.js"></script>
+<script src="skinlist.js"></script>
+<script src="lowquality.js"></script>
+<script src="settingsanimation.js"></script>
+<script src="chonmod.js"></script>
+<script src="check.js"></script>
+</body>
+</html>
